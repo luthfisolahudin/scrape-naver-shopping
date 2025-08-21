@@ -8,6 +8,7 @@
     "geoip-lite": "^1.4.10",
     "hono": "^4.9.2",
     "p-queue": "^8.1.0",
+    "p-retry": "^6.2.1",
     "playwright": "^1.55.0",
     "playwright-extra": "^4.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2"
