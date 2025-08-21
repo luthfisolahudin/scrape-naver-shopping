@@ -2,6 +2,7 @@ import { Hono } from 'hono'
 import PQueue from 'p-queue';
 import { fetchUsingPlaywright } from './fetch.js';
 import { premiumProxy } from './proxies.js';
+import { isHostAllowed } from './utils/ensure-allowed-host.js';
 
 const app = new Hono()
 const queue = new PQueue({
@@ -22,6 +23,13 @@ app.get('/naver/*', async (c) => {
       success: false,
       message: 'URL is required',
     }, 400);
+  }
+
+  if (!isHostAllowed(url)) {
+    return c.json({
+      success: false,
+      message: 'Blocked request. Trying to request to disallowed host.',
+    }, 403);
   }
 
   const query = new URLSearchParams(c.req.query());
