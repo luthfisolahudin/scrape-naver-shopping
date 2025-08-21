@@ -25,3 +25,4 @@ This project:
 - Use Korean locale and Timezone ID.
 - Can change browser viewport per request.
 - Can scrape public free Korean proxy some several sources or use premium proxy to help being seen as Korean users.
+- Use request queueing to help prevent getting rate-limited.
