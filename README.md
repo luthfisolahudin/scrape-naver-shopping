@@ -1,5 +1,15 @@
 # Scrape Naver Shopping
 
+## How to Setup
+
+First clone this repository,
+
+```sh
+git clone git@github.com:luthfisolahudin/scrape-naver-shopping.git
+```
+
+Then, setup your proxy by creating new `.env` file and fill you proxy credentials. You can start by copy from `.env.example` file.
+
 ## How to Run
 
 To run this project, you required to have working Docker. Then, run the command below to build and run.
