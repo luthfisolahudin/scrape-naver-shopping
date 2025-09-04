@@ -12,8 +12,8 @@ importers:
         specifier: ^1.4.10
         version: 1.4.10
       hono:
-        specifier: ^4.9.2
-        version: 4.9.2
+        specifier: ^4.9.6
+        version: 4.9.6
       p-queue:
         specifier: ^8.1.0
         version: 8.1.0
@@ -35,7 +35,7 @@ importers:
         version: 1.0.8
       '@types/bun':
         specifier: latest
-        version: 1.2.20(@types/react@19.1.10)
+        version: 1.2.21(@types/react@19.1.10)
       '@types/geoip-lite':
         specifier: ^1.4.4
         version: 1.4.4
@@ -64,8 +64,8 @@ packages:
   '@tsconfig/bun@1.0.8':
     resolution: {integrity: sha512-JlJaRaS4hBTypxtFe8WhnwV8blf0R+3yehLk8XuyxUYNx6VXsKCjACSCvOYEFUiqlhlBWxtYCn/zRlOb8BzBQg==}
 
-  '@types/bun@1.2.20':
-    resolution: {integrity: sha512-dX3RGzQ8+KgmMw7CsW4xT5ITBSCrSbfHc36SNT31EOUg/LA9JWq0VDdEXDRSe1InVWpd2yLUM1FUF/kEOyTzYA==}
+  '@types/bun@1.2.21':
+    resolution: {integrity: sha512-NiDnvEqmbfQ6dmZ3EeUO577s4P5bf4HCTXtI6trMc6f6RzirY5IrF3aIookuSpyslFzrnvv2lmEWv5HyC1X79A==}
 
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
@@ -123,8 +123,8 @@ packages:
   bare-events@2.6.1:
     resolution: {integrity: sha512-AuTJkq9XmE6Vk0FJVNq5QxETrSA/vKHarWVBG5l/JbdCL1prJemiyJqUS0jrlXO0MftuPq4m3YVYhoNc5+aE/g==}
 
-  bare-fs@4.2.1:
-    resolution: {integrity: sha512-mELROzV0IhqilFgsl1gyp48pnZsaV9xhQapHLDsvn4d4ZTfbFhcghQezl7FTEDNBcGqLUnNI3lUlm6ecrLWdFA==}
+  bare-fs@4.2.3:
+    resolution: {integrity: sha512-1aGs5pRVLToMQ79elP+7cc0u0s/wXAzfBv/7hDloT7WFggLqECCas5qqPky7WHCFdsBH5WDq6sD4fAoz5sJbtA==}
     engines: {bare: '>=1.16.0'}
     peerDependencies:
       bare-buffer: '*'
@@ -160,8 +160,8 @@ packages:
   buffer-crc32@0.2.13:
     resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
 
-  bun-types@1.2.20:
-    resolution: {integrity: sha512-pxTnQYOrKvdOwyiyd/7sMt9yFOenN004Y6O4lCcCUoKVej48FS5cvTw9geRaEcB9TsDZaJKAxPTVvi8tFsVuXA==}
+  bun-types@1.2.21:
+    resolution: {integrity: sha512-sa2Tj77Ijc/NTLS0/Odjq/qngmEPZfbfnOERi0KRUYhT9R8M4VBioWVmMWE5GrYbKMc+5lVybXygLdibHaqVqw==}
     peerDependencies:
       '@types/react': ^19
 
@@ -332,8 +332,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hono@4.9.2:
-    resolution: {integrity: sha512-UG2jXGS/gkLH42l/1uROnwXpkjvvxkl3kpopL3LBo27NuaDPI6xHNfuUSilIHcrBkPfl4y0z6y2ByI455TjNRw==}
+  hono@4.9.6:
+    resolution: {integrity: sha512-doVjXhSFvYZ7y0dNokjwwSahcrAfdz+/BCLvAMa/vHLzjj8+CFyV5xteThGUsKdkaasgN+gF2mUxao+SGLpUeA==}
     engines: {node: '>=16.9.0'}
 
   http-proxy-agent@7.0.2:
@@ -772,9 +772,9 @@ snapshots:
 
   '@tsconfig/bun@1.0.8': {}
 
-  '@types/bun@1.2.20(@types/react@19.1.10)':
+  '@types/bun@1.2.21(@types/react@19.1.10)':
     dependencies:
-      bun-types: 1.2.20(@types/react@19.1.10)
+      bun-types: 1.2.21(@types/react@19.1.10)
     transitivePeerDependencies:
       - '@types/react'
 
@@ -833,7 +833,7 @@ snapshots:
   bare-events@2.6.1:
     optional: true
 
-  bare-fs@4.2.1:
+  bare-fs@4.2.3:
     dependencies:
       bare-events: 2.6.1
       bare-path: 3.0.0
@@ -865,7 +865,7 @@ snapshots:
 
   buffer-crc32@0.2.13: {}
 
-  bun-types@1.2.20(@types/react@19.1.10):
+  bun-types@1.2.21(@types/react@19.1.10):
     dependencies:
       '@types/node': 24.3.0
       '@types/react': 19.1.10
@@ -1055,7 +1055,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono@4.9.2: {}
+  hono@4.9.6: {}
 
   http-proxy-agent@7.0.2:
     dependencies:
@@ -1450,7 +1450,7 @@ snapshots:
       pump: 3.0.3
       tar-stream: 3.1.7
     optionalDependencies:
-      bare-fs: 4.2.1
+      bare-fs: 4.2.3
       bare-path: 3.0.0
     transitivePeerDependencies:
       - bare-buffer
